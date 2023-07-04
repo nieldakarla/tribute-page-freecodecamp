@@ -1,0 +1,99 @@
+/*SOURCE
+https://www.mentalfloss.com/article/537552/facts-about-marie-curie
+https://en.wikipedia.org/wiki/Marie_Curie
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
+
+html{
+  font-size: 12px;
+}
+
+body{
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #333;
+  text-align: center;
+  margin: 3rem;
+  font-family: Montserrat, sans-serif; 
+}
+
+h1{
+  font-family: Caveat, sans-serif;
+  font-size: 5rem;
+  text-align: center;
+  margin: 0%; 
+}
+
+h3{
+  font-family: "Caveat Brush";
+}
+
+#img-div{
+  margin: auto;
+  max-width: 700px;
+}
+
+#image{
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+  box-shadow: -1rem 1.2rem #C8F700;
+}
+
+#img-caption {
+  padding-top: 6%;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin: auto;
+  max-width: 80%;
+}
+
+hr {
+  max-width: 600px;
+  
+}
+
+#dots {
+ border-width: 0;
+ border-bottom: 5px dotted black;
+width: 5%
+}
+
+
+ol {
+  max-width: 500px;
+  margin: 40px auto;
+  text-align: left;
+  line-height: 1.7;
+}
+
+a:hover {
+    animation-name: background-color;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+
+  }
+
+#subtitle {
+ text-align: center;
+ margin: 0;
+}
+
+p {
+  text-align: left;
+}
+
+
+@keyframes background-color{
+  100% {
+    background-color: #C8F700;
+  }
+}
